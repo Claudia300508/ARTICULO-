@@ -1,0 +1,162 @@
+/* ======================================
+      TIPOGRAFÍA Y CONFIGURACIÓN GLOBAL
+   ====================================== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #1A1A1A;
+    background-color: #F4F4F4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ======================================
+      CONTENEDOR PRINCIPAL Y ENCABEZADO
+   ====================================== */
+.articulo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 8px 0;
+    color: #0B3C5D;
+}
+
+.autor {
+    font-size: 14px;
+    text-align: center;
+}
+
+.afiliacion {
+    font-size: 12px;
+    text-align: center;
+}
+
+.contacto {
+    font-size: 12px;
+    text-align: center;
+}
+
+/* ==============================
+        TÍTULOS Y SECCIONES
+   ============================== */
+h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #0B3C5D;
+    margin: 24px 0 12px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+h3 {
+    font-size: 14px;
+    color: #1D6A9E;
+    text-align: left;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 0 12px 0;
+}
+
+/* =================================
+    RESUMEN Y BLOQUES DESTACADOS
+   ================================= */
+.resumen, .palabras-clave {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.resumen {
+    border-left: 4px solid #0B3C5D;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+}
+
+.titulo-tabla, figcaption {
+    font-size: 11px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* =============================
+        TABLAS Y RESULTADOS
+   ============================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+}
+
+th, td {
+    border: 1px solid #CCCCCC;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #EFEFEF;
+    color: #0B3C5D;
+}
+
+/* ==========================================
+   LISTAS Y REFERENCIAS
+   ========================================== */
+ol {
+    font-size: 12px;
+    text-align: justify;
+    margin: 0 0 12px 0;
+}
+
+li {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.referencias li {
+    font-size: 11px;
+    padding-left: 24px;
+    text-indent: -24px;
+    text-align: left;
+}
+
+/* ==========================================
+   ENLACES Y PSEUDO-CLASES
+   ========================================== */
+a {
+    color: #1D6A9E;
+}
+
+a:hover {
+    color: #C0392B;
+    text-decoration: underline;
+}
+
+/* ==========================================
+   PIE DE PÁGINA
+   ========================================== */
+footer {
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+    font-size: 11px;
+    text-align: center;
+    color: #555555;
+}
